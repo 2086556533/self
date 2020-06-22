@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单练习</title>
+</head>
+
+<body>
+    <form action="url">
+        <fieldset>
+            <input type="text" value="hgg" maxlength="10" size="20" disabled>
+            <input type="password" value="123456">
+            <label for="1">男<input type="radio" name="sex" value="man" id="1"></label>
+            <label for="2">女<input type="radio" name="sex" value="women" id="2"><label>
+            <ul>
+                <li><label for="001">外套</label><input type="checkbox" name="shop[]" value="shop1" id="001"></li>
+                <li><label for="002">裤子</label><input type="checkbox" name="shop[]" value="shop2" id="002"></li>
+                <li><label for="003">鞋</label><input type="checkbox" name="shop[]" value="shop3" id="003"></li>
+            </ul>
+
+            <input type="file">
+            <textarea rows="10"cols="30"></textarea>
+            <select name="area[]" size="1" multiple>
+                <option selected>默认值</option>
+                <option>山西省</option>
+                <option>河北省</option>
+                <option>江西省</option>
+                <option>陕西省</option>
+            </select>
+            <!--提交-->
+            <input type="submit" value="submit">
+            <input type="reset">
+            <input type="button">
+            <button type="submit">确认</button>
+            <button type="reset">重置</button>
+            <button type="button"></button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
